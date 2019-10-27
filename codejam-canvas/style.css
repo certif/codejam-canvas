@@ -1,0 +1,170 @@
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 48px;
+  max-width: 100%;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav h2 {
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+}
+
+nav button {
+  width: 40px;
+  height: 40px;
+  border: 0px;
+  background-color: #FFFFFF;
+}
+
+nav button:hover {
+  cursor: pointer;
+}
+
+.submenu {
+  position: absolute;
+  right: 15px;
+  top: 60px;
+  height: 200px;
+  width: 170px;
+}
+
+.submenu button {
+  height: 33%;
+  width: 100%;
+  border: 0;
+  background-color: #FFFFFF;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.541327);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+.submenu button:hover {
+  cursor: pointer;
+  background-color: #e1ecf4;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+aside {
+  margin-top: 80px;
+  margin-left: 30px;
+  height: 584px;
+  width: 228px;
+}
+
+.tools {
+  height: 246px;
+  width: 100%;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+.tools button {
+  position: relative;
+  height: 25%;
+  width: 100%;
+  border: 0;
+  background-color: #FFFFFF;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.541327);
+}
+
+.tools button img {
+  position: absolute;
+  left: 20px;
+}
+
+.tools button:hover {
+  cursor: pointer;
+  background-color: #e1ecf4;
+}
+
+.colors {
+  margin-top: 92px;
+  height: 246px;
+  width: 100%;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+.colors button {
+  position: relative;
+  height: 25%;
+  width: 100%;
+  min-width: 173px;
+  border: 0;
+  background-color: #FFFFFF;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.541327);
+}
+
+.colors button img {
+  position: absolute;
+  left: 20px;
+}
+
+.colors button:hover {
+  cursor: pointer;
+  background-color: #e1ecf4;
+}
+
+section {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section canvas {
+  width: 512px;
+  height: 512px;
+  -ms-interpolation-mode: nearest-neighbor;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: -o-pixelated;
+      image-rendering: pixelated;
+}
+
+footer {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  bottom: 0;
+  width: 100%;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.541327);
+}
+/*# sourceMappingURL=style.css.map */
