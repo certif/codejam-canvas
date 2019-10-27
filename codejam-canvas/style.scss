@@ -1,0 +1,124 @@
+nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 48px;
+   max-width: 100%;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   & h2 {
+      font-family: Roboto, sans-serif;
+      font-size: 20px;
+   }
+   & button {
+      width: 40px;
+      height: 40px;
+      border: 0px;
+      background-color: #FFFFFF;
+      &:hover {
+         cursor: pointer;
+      }
+   }
+}
+.submenu {
+   position: absolute;
+   right: 15px;
+   top: 60px;
+   height: 200px;
+   width: 170px;
+   & button {
+      height: 33%;
+      width: 100%;
+      border: 0;
+      background-color: #FFFFFF;
+      font-family: Roboto, sans-serif;
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.541327);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+   &:hover {
+      cursor: pointer;
+      background-color: #e1ecf4;
+      }
+   }
+}
+main {
+   display: flex;
+   height: 100%;
+   width: 100%;
+}
+aside {
+   margin-top: 80px;
+   margin-left: 30px;
+   height: 584px;
+   width: 228px;
+}
+.tools {
+   height: 246px;
+   width: 100%;
+   background: #FFFFFF;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+   & button {
+      position: relative;
+      height: 25%;
+      width: 100%;
+      border: 0;
+      background-color: #FFFFFF;
+      font-family: Roboto, sans-serif;
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.541327);
+      & img {
+         position: absolute;
+         left: 20px;
+      }
+      &:hover {
+         cursor: pointer;
+         background-color: #e1ecf4;
+      }
+   }
+}
+.colors {
+   margin-top: 92px;
+   height: 246px;
+   width: 100%;
+   background: #FFFFFF;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+   & button {
+      position: relative;
+      height: 25%;
+      width: 100%;
+      min-width: 173px;
+      border: 0;
+      background-color: #FFFFFF;
+      font-family: Roboto, sans-serif;
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.541327);
+      & img {
+         position: absolute;
+         left: 20px;
+      }
+      &:hover {
+         cursor: pointer;
+         background-color: #e1ecf4;
+      }
+   }
+}
+section {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   & canvas {
+      width: 512px;
+      height: 512px;
+      image-rendering: pixelated;
+   }
+}
+footer {
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   bottom: 0;
+   width: 100%;
+   font-family: Roboto, sans-serif;
+   font-size: 16px;
+   color: rgba(0, 0, 0, 0.541327);
+}
